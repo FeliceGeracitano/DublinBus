@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B907F891CB1E5CE009A05D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B907F881CB1E5CE009A05D4 /* AppDelegate.swift */; };
+		3B907F8B1CB1E5CE009A05D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B907F8A1CB1E5CE009A05D4 /* ViewController.swift */; };
+		3B907F8E1CB1E5CE009A05D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B907F8C1CB1E5CE009A05D4 /* Main.storyboard */; };
+		3B907F901CB1E5CE009A05D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B907F8F1CB1E5CE009A05D4 /* Assets.xcassets */; };
+		3B907F931CB1E5CE009A05D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B907F911CB1E5CE009A05D4 /* LaunchScreen.storyboard */; };
+		3B907F981CB1E5CE009A05D4 /* DublinBus WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3B907F971CB1E5CE009A05D4 /* DublinBus WatchKit App.app */; };
+		3B907F9E1CB1E5CE009A05D4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B907F9C1CB1E5CE009A05D4 /* Interface.storyboard */; };
+		3B907FA01CB1E5CE009A05D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B907F9F1CB1E5CE009A05D4 /* Assets.xcassets */; };
+		3B907FA71CB1E5CE009A05D4 /* DublinBus WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B907FA61CB1E5CE009A05D4 /* DublinBus WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B907FAE1CB1E5CE009A05D4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B907FAD1CB1E5CE009A05D4 /* InterfaceController.swift */; };
+		3B907FB01CB1E5CE009A05D4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B907FAF1CB1E5CE009A05D4 /* ExtensionDelegate.swift */; };
+		3B907FB21CB1E5CE009A05D4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B907FB11CB1E5CE009A05D4 /* NotificationController.swift */; };
+		3B907FB41CB1E5CE009A05D4 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B907FB31CB1E5CE009A05D4 /* GlanceController.swift */; };
+		3B907FB61CB1E5CE009A05D4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B907FB51CB1E5CE009A05D4 /* ComplicationController.swift */; };
+		3B907FB81CB1E5CE009A05D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B907FB71CB1E5CE009A05D4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B907F991CB1E5CE009A05D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B907F7D1CB1E5CE009A05D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B907F961CB1E5CE009A05D4;
+			remoteInfo = "DublinBus WatchKit App";
+		};
+		3B907FA81CB1E5CE009A05D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B907F7D1CB1E5CE009A05D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B907FA51CB1E5CE009A05D4;
+			remoteInfo = "DublinBus WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B907FBF1CB1E5CE009A05D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B907FA71CB1E5CE009A05D4 /* DublinBus WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B907FC31CB1E5CE009A05D4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3B907F981CB1E5CE009A05D4 /* DublinBus WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B907F851CB1E5CE009A05D4 /* DublinBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DublinBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B907F881CB1E5CE009A05D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B907F8A1CB1E5CE009A05D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B907F8D1CB1E5CE009A05D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B907F8F1CB1E5CE009A05D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B907F921CB1E5CE009A05D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B907F941CB1E5CE009A05D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B907F971CB1E5CE009A05D4 /* DublinBus WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DublinBus WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B907F9D1CB1E5CE009A05D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3B907F9F1CB1E5CE009A05D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B907FA11CB1E5CE009A05D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B907FA61CB1E5CE009A05D4 /* DublinBus WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DublinBus WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B907FAC1CB1E5CE009A05D4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3B907FAD1CB1E5CE009A05D4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3B907FAF1CB1E5CE009A05D4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3B907FB11CB1E5CE009A05D4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3B907FB31CB1E5CE009A05D4 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		3B907FB51CB1E5CE009A05D4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3B907FB71CB1E5CE009A05D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B907FB91CB1E5CE009A05D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B907F821CB1E5CE009A05D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B907FA31CB1E5CE009A05D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B907F7C1CB1E5CE009A05D4 = {
+			isa = PBXGroup;
+			children = (
+				3B907F871CB1E5CE009A05D4 /* DublinBus */,
+				3B907F9B1CB1E5CE009A05D4 /* DublinBus WatchKit App */,
+				3B907FAA1CB1E5CE009A05D4 /* DublinBus WatchKit Extension */,
+				3B907F861CB1E5CE009A05D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B907F861CB1E5CE009A05D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B907F851CB1E5CE009A05D4 /* DublinBus.app */,
+				3B907F971CB1E5CE009A05D4 /* DublinBus WatchKit App.app */,
+				3B907FA61CB1E5CE009A05D4 /* DublinBus WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B907F871CB1E5CE009A05D4 /* DublinBus */ = {
+			isa = PBXGroup;
+			children = (
+				3B907F881CB1E5CE009A05D4 /* AppDelegate.swift */,
+				3B907F8A1CB1E5CE009A05D4 /* ViewController.swift */,
+				3B907F8C1CB1E5CE009A05D4 /* Main.storyboard */,
+				3B907F8F1CB1E5CE009A05D4 /* Assets.xcassets */,
+				3B907F911CB1E5CE009A05D4 /* LaunchScreen.storyboard */,
+				3B907F941CB1E5CE009A05D4 /* Info.plist */,
+			);
+			path = DublinBus;
+			sourceTree = "<group>";
+		};
+		3B907F9B1CB1E5CE009A05D4 /* DublinBus WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3B907F9C1CB1E5CE009A05D4 /* Interface.storyboard */,
+				3B907F9F1CB1E5CE009A05D4 /* Assets.xcassets */,
+				3B907FA11CB1E5CE009A05D4 /* Info.plist */,
+			);
+			path = "DublinBus WatchKit App";
+			sourceTree = "<group>";
+		};
+		3B907FAA1CB1E5CE009A05D4 /* DublinBus WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B907FAD1CB1E5CE009A05D4 /* InterfaceController.swift */,
+				3B907FAF1CB1E5CE009A05D4 /* ExtensionDelegate.swift */,
+				3B907FB11CB1E5CE009A05D4 /* NotificationController.swift */,
+				3B907FB31CB1E5CE009A05D4 /* GlanceController.swift */,
+				3B907FB51CB1E5CE009A05D4 /* ComplicationController.swift */,
+				3B907FB71CB1E5CE009A05D4 /* Assets.xcassets */,
+				3B907FB91CB1E5CE009A05D4 /* Info.plist */,
+				3B907FAB1CB1E5CE009A05D4 /* Supporting Files */,
+			);
+			path = "DublinBus WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3B907FAB1CB1E5CE009A05D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B907FAC1CB1E5CE009A05D4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B907F841CB1E5CE009A05D4 /* DublinBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B907FC41CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus" */;
+			buildPhases = (
+				3B907F811CB1E5CE009A05D4 /* Sources */,
+				3B907F821CB1E5CE009A05D4 /* Frameworks */,
+				3B907F831CB1E5CE009A05D4 /* Resources */,
+				3B907FC31CB1E5CE009A05D4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B907F9A1CB1E5CE009A05D4 /* PBXTargetDependency */,
+			);
+			name = DublinBus;
+			productName = DublinBus;
+			productReference = 3B907F851CB1E5CE009A05D4 /* DublinBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B907F961CB1E5CE009A05D4 /* DublinBus WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B907FC01CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus WatchKit App" */;
+			buildPhases = (
+				3B907F951CB1E5CE009A05D4 /* Resources */,
+				3B907FBF1CB1E5CE009A05D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B907FA91CB1E5CE009A05D4 /* PBXTargetDependency */,
+			);
+			name = "DublinBus WatchKit App";
+			productName = "DublinBus WatchKit App";
+			productReference = 3B907F971CB1E5CE009A05D4 /* DublinBus WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3B907FA51CB1E5CE009A05D4 /* DublinBus WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B907FBC1CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus WatchKit Extension" */;
+			buildPhases = (
+				3B907FA21CB1E5CE009A05D4 /* Sources */,
+				3B907FA31CB1E5CE009A05D4 /* Frameworks */,
+				3B907FA41CB1E5CE009A05D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DublinBus WatchKit Extension";
+			productName = "DublinBus WatchKit Extension";
+			productReference = 3B907FA61CB1E5CE009A05D4 /* DublinBus WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B907F7D1CB1E5CE009A05D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Felice Geracitano";
+				TargetAttributes = {
+					3B907F841CB1E5CE009A05D4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2KJ634S38J;
+					};
+					3B907F961CB1E5CE009A05D4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2KJ634S38J;
+					};
+					3B907FA51CB1E5CE009A05D4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2KJ634S38J;
+					};
+				};
+			};
+			buildConfigurationList = 3B907F801CB1E5CE009A05D4 /* Build configuration list for PBXProject "DublinBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B907F7C1CB1E5CE009A05D4;
+			productRefGroup = 3B907F861CB1E5CE009A05D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B907F841CB1E5CE009A05D4 /* DublinBus */,
+				3B907F961CB1E5CE009A05D4 /* DublinBus WatchKit App */,
+				3B907FA51CB1E5CE009A05D4 /* DublinBus WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B907F831CB1E5CE009A05D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B907F931CB1E5CE009A05D4 /* LaunchScreen.storyboard in Resources */,
+				3B907F901CB1E5CE009A05D4 /* Assets.xcassets in Resources */,
+				3B907F8E1CB1E5CE009A05D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B907F951CB1E5CE009A05D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B907FA01CB1E5CE009A05D4 /* Assets.xcassets in Resources */,
+				3B907F9E1CB1E5CE009A05D4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B907FA41CB1E5CE009A05D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B907FB81CB1E5CE009A05D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B907F811CB1E5CE009A05D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B907F8B1CB1E5CE009A05D4 /* ViewController.swift in Sources */,
+				3B907F891CB1E5CE009A05D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B907FA21CB1E5CE009A05D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B907FB21CB1E5CE009A05D4 /* NotificationController.swift in Sources */,
+				3B907FB01CB1E5CE009A05D4 /* ExtensionDelegate.swift in Sources */,
+				3B907FB61CB1E5CE009A05D4 /* ComplicationController.swift in Sources */,
+				3B907FAE1CB1E5CE009A05D4 /* InterfaceController.swift in Sources */,
+				3B907FB41CB1E5CE009A05D4 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B907F9A1CB1E5CE009A05D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B907F961CB1E5CE009A05D4 /* DublinBus WatchKit App */;
+			targetProxy = 3B907F991CB1E5CE009A05D4 /* PBXContainerItemProxy */;
+		};
+		3B907FA91CB1E5CE009A05D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B907FA51CB1E5CE009A05D4 /* DublinBus WatchKit Extension */;
+			targetProxy = 3B907FA81CB1E5CE009A05D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B907F8C1CB1E5CE009A05D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B907F8D1CB1E5CE009A05D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B907F911CB1E5CE009A05D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B907F921CB1E5CE009A05D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B907F9C1CB1E5CE009A05D4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B907F9D1CB1E5CE009A05D4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B907FBA1CB1E5CE009A05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B907FBB1CB1E5CE009A05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B907FBD1CB1E5CE009A05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "DublinBus WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		3B907FBE1CB1E5CE009A05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "DublinBus WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		3B907FC11CB1E5CE009A05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DublinBus_WatchKit_Extension;
+				INFOPLIST_FILE = "DublinBus WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		3B907FC21CB1E5CE009A05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DublinBus_WatchKit_Extension;
+				INFOPLIST_FILE = "DublinBus WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		3B907FC51CB1E5CE009A05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DublinBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B907FC61CB1E5CE009A05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DublinBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B907F801CB1E5CE009A05D4 /* Build configuration list for PBXProject "DublinBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B907FBA1CB1E5CE009A05D4 /* Debug */,
+				3B907FBB1CB1E5CE009A05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B907FBC1CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B907FBD1CB1E5CE009A05D4 /* Debug */,
+				3B907FBE1CB1E5CE009A05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B907FC01CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B907FC11CB1E5CE009A05D4 /* Debug */,
+				3B907FC21CB1E5CE009A05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B907FC41CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B907FC51CB1E5CE009A05D4 /* Debug */,
+				3B907FC61CB1E5CE009A05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B907F7D1CB1E5CE009A05D4 /* Project object */;
+}
