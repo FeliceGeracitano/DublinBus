@@ -111,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				3B907F871CB1E5CE009A05D4 /* DublinBus */,
-				3B907F9B1CB1E5CE009A05D4 /* DublinBus WatchKit App */,
+				3B907F9B1CB1E5CE009A05D4 /* DublinBus */,
 				3B907FAA1CB1E5CE009A05D4 /* DublinBus WatchKit Extension */,
 				3B907F861CB1E5CE009A05D4 /* Products */,
 			);
@@ -140,13 +140,14 @@
 			path = DublinBus;
 			sourceTree = "<group>";
 		};
-		3B907F9B1CB1E5CE009A05D4 /* DublinBus WatchKit App */ = {
+		3B907F9B1CB1E5CE009A05D4 /* DublinBus */ = {
 			isa = PBXGroup;
 			children = (
 				3B907F9C1CB1E5CE009A05D4 /* Interface.storyboard */,
 				3B907F9F1CB1E5CE009A05D4 /* Assets.xcassets */,
 				3B907FA11CB1E5CE009A05D4 /* Info.plist */,
 			);
+			name = DublinBus;
 			path = "DublinBus WatchKit App";
 			sourceTree = "<group>";
 		};
@@ -517,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DublinBus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus;
@@ -528,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DublinBus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FeliceGeracitano.DublinBus;
@@ -554,6 +557,7 @@
 				3B907FBE1CB1E5CE009A05D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B907FC01CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +566,7 @@
 				3B907FC21CB1E5CE009A05D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B907FC41CB1E5CE009A05D4 /* Build configuration list for PBXNativeTarget "DublinBus" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +575,7 @@
 				3B907FC61CB1E5CE009A05D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

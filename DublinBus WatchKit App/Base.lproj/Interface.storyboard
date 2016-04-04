@@ -11,19 +11,19 @@
                 <controller identifier="Home" title="DublinBus" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DublinBus_WatchKit_App" customModuleProvider="target">
                     <items>
                         <separator alignment="left" id="ikK-iP-jam"/>
-                        <group width="1" alignment="center" verticalAlignment="center" layout="vertical" id="Dhq-BM-zf0">
+                        <group width="134" alignment="center" verticalAlignment="center" layout="vertical" id="Dhq-BM-zf0">
                             <items>
-                                <button width="1" alignment="left" title="Nearest" id="099-VN-sfz">
+                                <button width="1" alignment="center" title="Nearest" id="099-VN-sfz">
                                     <connections>
-                                        <segue destination="0Eg-VP-69T" kind="push" id="xxe-u2-ztm"/>
+                                        <segue destination="0Eg-VP-69T" kind="push" id="oWq-2A-x56"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="left" title="Favorites" id="leM-9R-rWK">
+                                <button width="1" alignment="center" verticalAlignment="center" title="Favorites" id="leM-9R-rWK">
                                     <connections>
                                         <segue destination="iiJ-Lp-4sf" kind="push" id="CNj-92-Jup"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="left" title="Search" id="u5o-5G-fp2"/>
+                                <button width="1" alignment="center" verticalAlignment="bottom" title="Search" id="u5o-5G-fp2"/>
                             </items>
                         </group>
                     </items>
