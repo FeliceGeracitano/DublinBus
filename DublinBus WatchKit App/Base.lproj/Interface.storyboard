@@ -40,7 +40,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="537" y="478"/>
+            <point key="canvasLocation" x="537" y="479"/>
         </scene>
         <!--Nearest-->
         <scene sceneID="YiT-6C-Hug">
@@ -51,7 +51,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="537" y="181"/>
+            <point key="canvasLocation" x="537" y="210"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
